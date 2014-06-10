@@ -13,6 +13,6 @@ namespace Pptak.WPFSample.DOM
         bool Update(T entity);
         bool Delete(T entity);
         T Get(Func<T, bool> filter);
-        ICollection<T> GetAll();
+        IList<T> GetAll();
     }
 }

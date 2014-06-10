@@ -36,7 +36,7 @@ namespace Pptak.WPFSample.Stubs
             throw new NotImplementedException();
         }
 
-        public ICollection<Institution> GetAll()
+        public IList<Institution> GetAll()
         {
             throw new NotImplementedException();
         }

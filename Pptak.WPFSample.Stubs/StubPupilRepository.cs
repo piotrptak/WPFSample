@@ -70,7 +70,7 @@ namespace Pptak.WPFSample.Stubs
             return this.pupils.FirstOrDefault(filter);
         }
 
-        public ICollection<Pupil> GetAll()
+        public IList<Pupil> GetAll()
         {
             return this.pupils;
         }

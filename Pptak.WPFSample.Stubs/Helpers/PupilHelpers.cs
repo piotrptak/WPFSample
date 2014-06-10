@@ -11,11 +11,12 @@ namespace Pptak.WPFSample.Stubs.Helpers
     {
         public static IList<Pupil> InitializeStub(int numberOfPupils=20)
         {
-            IList<Pupil> result = null;
+            IList<Pupil> result = new List<Pupil>();
             for (int i = 0; i < numberOfPupils; i++)
             {
                 string prefix = Guid.NewGuid().ToString();
                 Pupil pupil = new Random().Next(1, 2) == 1 ? CreateAspNetPupil(prefix) : CreateUNILoginPupil(prefix);
+                result.Add(pupil);
             }
             return result;
         }

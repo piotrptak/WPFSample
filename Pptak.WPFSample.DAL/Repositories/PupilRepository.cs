@@ -29,7 +29,7 @@ namespace Pptak.WPFSample.DAL.Repositories
             throw new NotImplementedException();
         }
 
-        public ICollection<Pupil> GetAll()
+        public IList<Pupil> GetAll()
         {
             throw new NotImplementedException();
         }
