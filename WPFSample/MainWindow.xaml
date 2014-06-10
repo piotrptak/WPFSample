@@ -7,7 +7,7 @@
         Title="MainWindow" Height="800" Width="1000">
     <Window.Resources>
         <ResourceDictionary>
-            <!--<DataTemplate DataType="{x:Type localVM:MainViewModel}">
+            <DataTemplate DataType="{x:Type localVM:MainViewModel}">
                 <Grid>
                     <Grid.RowDefinitions>
                         <RowDefinition Height="Auto"/>
@@ -28,8 +28,8 @@
                         </ListView>
                     </DockPanel>
                 </Grid>
-            </DataTemplate>-->
+            </DataTemplate>
         </ResourceDictionary>
     </Window.Resources>
-    <!--<ContentControl Content="{Binding Path=DataContext, ElementName=TheMainWindow}"/>-->
+    <ContentControl Content="{Binding Path=DataContext, ElementName=TheMainWindow}"/>
 </Window>
