@@ -24,6 +24,7 @@ namespace WPFSample
         public MainWindow(IMainViewModel viewModel)
         {
             InitializeComponent();
+            DataContext = viewModel;
             //this.DataContext = viewModel;
         }
     }
